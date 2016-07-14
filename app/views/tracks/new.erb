@@ -1,0 +1,18 @@
+<form action="/tracks/new" method="post">
+  
+  <div class="form-field">
+    <label for="song-title">Title:</label>
+    <!-- required throws an error if field not filled in -->
+    <input type="text" id="song-title" name="title" required autofocus>
+  </div>
+  <div class="form-field">
+    <label for="song-author">Author:</label>
+    <input type="text" id="song-author" name="author" required>
+  </div>
+  <div class="form-field">
+    <label for="song-url">Url:</label>
+    <input type="url" id="song-url" name="url">
+  </div>
+  <button type="submit">Submit Track</button>
+  
+</form>
